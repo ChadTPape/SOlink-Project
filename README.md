@@ -15,15 +15,15 @@ Setup:
 
 1. Clone the Repository
 Clone the repository to your local machine:
-```bash
-"git clone https://github.com/ChadTPape/SOlink-Project.git"
 
-"cd solink-project"
+`git clone https://github.com/ChadTPape/SOlink-Project.git`
+
+`cd solink-project`
 
 2. Install Dependencies
 Install project dependencies using npm:
 
-"npm install"
+`npm install`
 
 3. Configure Environment Variables:
 Create a .env file in the root of your project based on the provided .env.example. Replace the placeholders with your PostgreSQL database connection details and Solcast API key.
@@ -39,6 +39,7 @@ DB_PASSWORD=your_password
 
 DB_DATABASE=your_database
 
+
 # Solcast API Key
 SOLCAST_API_KEY=your_solcast_api_key
 
@@ -49,18 +50,18 @@ Solcast weather data.
 6. Build the Project
 Build the TypeScript project to compile it into JavaScript:
 
-npm run build
+`npm run build`
 
 7. Local Testing:
 Test the Lambda function locally using AWS SAM CLI:
 
-sam local invoke "SolcastLambdaFunction" --event events/event.json
+`sam local invoke "SolcastLambdaFunction" --event events/event.json`
 
 Ensure your events/event.json file contains the necessary event data for testing.
 
 7. Deployment:
 Deploy the Lambda function and related resources to AWS using AWS SAM CLI:
 
-sam deploy --guided
+`sam deploy --guided`
 
 Follow the prompts to configure your deployment settings (AWS Region, Stack Name, etc.).
