@@ -10,19 +10,25 @@ Prerequisites
 - AWS CLI
 - AWS SAM CLI
 
+$ git clone https://github.com/username/repository.git
+$ cd repository
+$ npm install
+$ node app.js
+
+
 Setup:
 
 1. Clone the Repository
 Clone the repository to your local machine:
 
-git clone https://github.com/ChadTPape/SOlink-Project.git
+"git clone https://github.com/ChadTPape/SOlink-Project.git"
 
-cd solink-project
+"cd solink-project"
 
 2. Install Dependencies
 Install project dependencies using npm:
 
-npm install
+"npm install"
 
 3. Configure Environment Variables:
 Create a .env file in the root of your project based on the provided .env.example. Replace the placeholders with your PostgreSQL database connection details and Solcast API key.
