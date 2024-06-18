@@ -10,10 +10,7 @@ Prerequisites
 - AWS CLI
 - AWS SAM CLI
 
-$ git clone https://github.com/username/repository.git
-$ cd repository
-$ npm install
-$ node app.js
+git clone https://github.com/username/repository.git
 
 
 Setup:
