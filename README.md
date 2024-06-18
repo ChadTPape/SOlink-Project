@@ -36,22 +36,21 @@ DB_DATABASE=your_database
 SOLCAST_API_KEY=your_solcast_api_key
 
 4. Set Up PostgreSQL Database
-Ensure your PostgreSQL database is set up with the schema required for storing Solcast weather data.
+Ensure your PostgreSQL database is set up with the schema required for storing
+Solcast weather data.
 
-5. Build the Project
+6. Build the Project
 Build the TypeScript project to compile it into JavaScript:
 npm run build
 
-6. Local Testing:
+7. Local Testing:
 Test the Lambda function locally using AWS SAM CLI:
-
 sam local invoke "SolcastLambdaFunction" --event events/event.json
 
 Ensure your events/event.json file contains the necessary event data for testing.
 
 7. Deployment:
 Deploy the Lambda function and related resources to AWS using AWS SAM CLI:
-
 sam deploy --guided
 
 Follow the prompts to configure your deployment settings (AWS Region, Stack Name, etc.).
