@@ -1,0 +1,44 @@
+{
+    "resource": "/weather",
+    "path": "/weather",
+    "httpMethod": "GET",
+    "headers": null,
+    "queryStringParameters": {
+      "location": "35.6895,139.6917"
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "123456",
+      "resourcePath": "/weather",
+      "httpMethod": "GET",
+      "extendedRequestId": "request-id",
+      "requestTime": "18/Jun/2024:19:36:00 +0000",
+      "path": "/weather",
+      "accountId": "123456789012",
+      "protocol": "HTTP/1.1",
+      "stage": "test",
+      "domainPrefix": "testPrefix",
+      "requestTimeEpoch": 1624046160000,
+      "requestId": "c1c2a3d4-e5f6-7890-abcd-1234efgh5678",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "127.0.0.1",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "Custom User Agent String",
+        "user": null
+      },
+      "domainName": "testPrefix.testDomainName",
+      "apiId": "1234567890"
+    },
+    "body": null,
+    "isBase64Encoded": false
+  }
+  

@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# TypeScript build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# AWS SAM build artifacts
+.aws-sam/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# MacOS system files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# dotenv files
+*.env.local
+*.env.test
+*.env.production
