@@ -16,10 +16,12 @@ Setup:
 Clone the repository to your local machine:
 
 git clone https://github.com/ChadTPape/SOlink-Project.git
+
 cd solink-project
 
 2. Install Dependencies
 Install project dependencies using npm:
+
 npm install
 
 3. Configure Environment Variables:
