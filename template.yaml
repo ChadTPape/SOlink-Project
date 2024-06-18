@@ -29,13 +29,13 @@ Parameters:
     Default: '5432'
   DBUsername:
     Type: String
-    Default: postgres
+    Default: your_username
   DBPassword:
     Type: String
-    Default: PostgresSQL
+    Default: your_password
   DBDatabase:
     Type: String
-    Default: solink
+    Default: your_database
   SolcastApiKey:
     Type: String
-    Default: 5OQPV0J6imSw7odYjJ4aNXNe2q3MYGpG
+    Default: SOLCAST_API_KEY
