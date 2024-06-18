@@ -10,14 +10,12 @@ Prerequisites
 - AWS CLI
 - AWS SAM CLI
 
-git clone https://github.com/username/repository.git
-
 
 Setup:
 
 1. Clone the Repository
 Clone the repository to your local machine:
-
+```bash
 "git clone https://github.com/ChadTPape/SOlink-Project.git"
 
 "cd solink-project"
