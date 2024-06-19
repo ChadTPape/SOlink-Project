@@ -13,14 +13,14 @@ Prerequisites
 
 Setup:
 
-1. Clone the Repository
+1. Clone the Repository:
 Clone the repository to your local machine:
 
 `git clone https://github.com/ChadTPape/SOlink-Project.git`
 
 `cd solink-project`
 
-2. Install Dependencies
+2. Install Dependencies:
 Install project dependencies using npm:
 
 `npm install`
@@ -43,11 +43,11 @@ DB_DATABASE=your_database
 # Solcast API Key
 SOLCAST_API_KEY=your_solcast_api_key
 
-4. Set Up PostgreSQL Database
+4. Set Up PostgreSQL Database:
 Ensure your PostgreSQL database is set up with the schema required for storing
 Solcast weather data.
 
-6. Build the Project
+6. Build the Project:
 Build the TypeScript project to compile it into JavaScript:
 
 `npm run build`
